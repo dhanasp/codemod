@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node src/indexTest.js"
+    "test": "node src/indexTest.js",
+    "codemod": "jscodeshift -t ./transform.js ./src"
   },
   "keywords": [],
   "author": "",
